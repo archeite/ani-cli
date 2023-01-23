@@ -49,37 +49,37 @@ Play the dubbed version. Without this flag, it'll always play the subbed version
 .SH
 ENVIRONMENT VARIABLES
 .PP
-ani-cli v4 uses environment variables to controll unstable/untested and nieche features in addition to everything that has an option. Command-line options take precedence over env vars. Note that these are all subject to change.
+ani-cli v4 uses environment variables to control unstable/untested and niche features in addition to everything that has an option. Command-line options take precedence over env vars. Note that these are all subject to change.
 .TP
 \fBANI_CLI_MODE\fR
-Controlls the scraped media's mode, valid options are sub or dub. Default is sub.
+Controls the scraped media's mode, valid options are sub or dub. Default is sub.
 .TP
 \fBANI_CLI_MEDIA_LOCALE\fR
-Controlls the scraped media's locale, check allanime for valid options. Default is en-US.
+Controls the scraped media's locale, check allanime for valid options. Default is en-US.
 .TP
 \fBANI_CLI_DOWNLOAD_DIR\fR
-Controlls the directory where files are downloaded. Default is the current dir.
+Controls the directory where files are downloaded. Default is the current dir.
 .TP
 \fBANI_CLI_QUALITY\fR
-Controlls the scraped media's quality, check allanime for valid options or set to worst/best. Default is best.
+Controls the scraped media's quality, check allanime for valid options or set to worst/best. Default is best.
 .TP
 \fBANI_CLI_PLAYER\fR
 Sets the player ani-cli uses. Can be debug (print links), download (equivalent to -d), android_mpv (apk and am start), android_vlc (apk and am start), flatpak_mpv (for flatpak) or any player that can play urls. For defaults see working without arguments.
 .TP
 \fBANI_CLI_EXTERNAL_MENU\fR
-Controlls the frontend of ani-cli. Can be 0 (uses fzf) or 1 (uses rofi dmenu). Default is 0.
+Controls the frontend of ani-cli. Can be 0 (uses fzf) or 1 (uses rofi dmenu). Default is 0.
 .TP
 \fBANI_CLI_MULTI_SELECTION\fR
-Controlls the multi flag for the chosen frontend. Default is -m for fzf and --multi-select for dmenu.
+Controls the multi flag for the chosen frontend. Default is -m for fzf and --multi-select for dmenu.
 .TP
 \fBANI_CLI_CACHE_DIR\fR
-Controlls the directory ani-cli uses for caching results. A /ani-cli subfolder is created there for the cache files if doesn't exists. Default is $XDG_CACHE_HOME if set, $HOME/.cache/ if not.
+Controls the directory ani-cli uses for caching results. A /ani-cli subfolder is created there for the cache files if doesn't exists. Default is $XDG_CACHE_HOME if set, $HOME/.cache/ if not.
 .TP
 \fBANI_CLI_HIST_DIR\fR
-Controlls the directory ani-cli uses for storing history. A /ani-cli subfolder is created there for the histfile if doesn't exists .Default is $XDG_STATE_HOME if set, $HOME/.local/state if not.
+Controls the directory ani-cli uses for storing history. A /ani-cli subfolder is created there for the histfile if doesn't exists .Default is $XDG_STATE_HOME if set, $HOME/.local/state if not.
 .TP
 \fBANI_CLI_DEFAULT_SOURCE\fR
-Controlls the default source. Valid is history (equivalent to -c), everything else means search. Default is search.
+Controls the default source. Valid is history (equivalent to -c), everything else means search. Default is search.
 .PP
 .SH EPISODE SELECTION
 .PP
